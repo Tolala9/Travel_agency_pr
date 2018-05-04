@@ -67,19 +67,68 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var $ = __webpack_require__(1);
-var	Person = __webpack_require__(2);
+"use strict";
+
+
+var _Person = __webpack_require__(1);
+
+var _Person2 = _interopRequireDefault(_Person);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var $ = __webpack_require__(2);
+// var	Person = require('./modules/Person'); nodejs
+//es6
+
 
 alert("webpack automation!!!11122");
 
-var john = new Person("JOHN", "RED");
+var john = new _Person2.default("JOHN", "RED");
 john.greet();
 
-var jane = new Person("Jane", "Black");
+var jane = new _Person2.default("Jane", "red");
 jane.greet();
 
 /***/ }),
 /* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var Person = function () {
+	function Person(fullName, favColor) {
+		_classCallCheck(this, Person);
+
+		this.name = fullName;
+		this.favoriteColor = favColor;
+	}
+
+	_createClass(Person, [{
+		key: "greet",
+		value: function greet() {
+			console.log("hi, my name is" + this.name + "and my favorite color is" + this.favoriteColor);
+		}
+	}]);
+
+	return Person;
+}();
+
+// module.exports = Person; nodejs way
+
+
+exports.default = Person; //es6
+
+/***/ }),
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -10448,21 +10497,6 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
-
-/***/ }),
-/* 2 */
-/***/ (function(module, exports) {
-
-function Person(fullName, favColor) {
-	this.name = fullName;
-	this.favoriteColor = favColor;
-	this.greet = function() {
-	console.log("Hello, my name is" + this.name + "and my favorite color is" + this.favoriteColor);
-	}
-	
-}
-
-module.exports = Person;
 
 /***/ })
 /******/ ]);
