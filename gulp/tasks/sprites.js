@@ -5,16 +5,23 @@ del = require('del'),
 svg2png = require('gulp-svg2png');
 
 var config = {
-	mode: {
-		css: {
-			sprite: 'sprite.svg',
-			render: {
-				css: {
-					template: './gulp/templates/sprite.css'
-				}
-			}
-		}
-	}
+  mode: {
+    css: {
+      variables: {
+        replaceSvgWithPng: function() {
+          return function(sprite, render) {
+            return render(sprite).split('.svg').join('.png');
+          }
+        }
+      },
+      sprite: 'sprite.svg',
+      render: {
+        css: {
+          template: './gulp/templates/sprite.css'
+        }
+      }
+    }
+  }
 }
 
 gulp.task('beginClean', function() {
