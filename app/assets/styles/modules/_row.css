@@ -120,7 +120,7 @@
 
 	.flexbox	&--equal-height-at-large {
 		@mixin atLarge {
-			display: flex;
+			display: flex; 
 		}
 
 		& > div {
