@@ -356,12 +356,12 @@ img {
 }
 
 a {
-	color: #d59541;
+	color: #F67E7D;
 }
 
 .large-hero {
   position: relative;
-  border-bottom: 10px solid #2f5572;
+  border-bottom: 10px solid #559897;
 }
 
 .large-hero__image {
@@ -388,7 +388,7 @@ a {
 
 .large-hero__title {
 	font-weight: 300;
-	color: #2f5572;
+	color: white;
 	margin: 0;
 	font-size: 2.4rem;
 
@@ -408,7 +408,7 @@ a {
 
 .large-hero__subtitle{
 		font-weight: 300;
-		color: #2f5572;
+		color: white;
 		font-size: 1.5rem;
 		margin: 0;
 }
@@ -438,7 +438,7 @@ a {
 	}
 
 .btn{
-	background-color: #2f5572; 
+	background-color: #559897; 
 	color: #fff;
 	text-decoration: none;
 	padding: .75rem 1.2rem;
@@ -447,7 +447,7 @@ a {
 }
 
 .btn--orange{ 
-		background-color: #d59541;
+		background-color: #F67E7D;
 	}
 
 .btn--large{
@@ -556,7 +556,7 @@ a {
 	}
 
 .page-section__blue {
-		background-color: #2f5572;
+		background-color: #559897;
 		color: white;
 	}
 
@@ -576,7 +576,7 @@ a {
 .headline {
 	font-weight: 300;
 	font-size: 1.9rem;
-	color: #2f5572;
+	color: #559897;
 }
 
 @media (min-width: 530px) {
@@ -591,7 +591,7 @@ a {
 	}
 
 .headline--orange{
-		color: #d59541;
+		color: #F67E7D;
 	}
 
 .headline--small{
@@ -796,7 +796,7 @@ a {
 	}
 
 .section-title--blue {
-		color: #2f5572;
+		color: #559897;
 	}
 
 .section-title--less-margin {
@@ -896,7 +896,7 @@ a {
 	}
 
 .testimonial__title{
-		color: #2f5572;
+		color: #559897;
 		text-align: center;
 		font-size: 1.5rem;
 		font-weight: 500;
@@ -904,7 +904,7 @@ a {
 	}
 
 .testimonial__subtitle {
-		color: #d59541;
+		color: #F67E7D;
 		text-align: center;
 		font-weight: 400;
 		font-size: 0.9375rem;
@@ -915,11 +915,11 @@ a {
 Instead edit gulp/templates/sprite */
 
 .icon {
-			background-image: url('../../assets/images/sprites/sprite-cbdfe7ac.svg');
+			background-image: url('../../../assets/images/sprites/sprite-1815b06f.svg');
 		}
 
 .no-svg .icon {
-			background-image: url('../../assets/images/sprites/sprite-cbdfe7ac.png');
+			background-image: url('../../../assets/images/sprites/sprite-1815b06f.png');
 		}
 
 .icon--clear-view-escapes {
@@ -995,7 +995,7 @@ Instead edit gulp/templates/sprite */
 	}
 
 .site-footer {
-	background-color: #2f5572;
+	background-color: #559897;
 	color: white;
 	padding: .5rem 0;
 	text-align: center;
@@ -1026,18 +1026,18 @@ Instead edit gulp/templates/sprite */
 }
 
 .site-header--is-expanded {
-    background-color: rgba(47,85,114, .55);
+    background-color: rgba(85,152,151, .55);
   }
 
 @media (min-width: 800px) {
 
 .site-header {
     position: fixed;
-    background-color: rgba(47,85,114, .3)
+    background-color: rgba(85,152,151, .3)
 }
 
     .site-header--dark {
-      background-color: rgba(23, 51, 72, .85);
+      background-color: #467D7C;
     }
 	}
 
@@ -1059,7 +1059,7 @@ Instead edit gulp/templates/sprite */
     transition: transform .3s ease-out, -webkit-transform .3s ease-out;
     -webkit-transform-origin: 50% 0;
             transform-origin: 50% 0;
-    background-color: #2f5572;
+    background-color: #559897;
     padding: 25px 36px;
   }
 
@@ -1246,7 +1246,7 @@ Instead edit gulp/templates/sprite */
 		padding: 5px 8px;
 		display: block;
 		font-size: .8rem;
-		background-color: rgba(47,85,114, .5);
+		background-color: rgba(85,152,151, .5);
 	}
 
 @media (min-width: 800px) {
@@ -1258,7 +1258,7 @@ Instead edit gulp/templates/sprite */
 	}
 
 			.primary-nav a.is-current-link{
-				color: #fabb69;
+				color: #F67E7D;
 			}
 	}
 
@@ -1321,12 +1321,12 @@ Instead edit gulp/templates/sprite */
 		        transform: scaleX(1.2);
 		-webkit-transform-origin: 100% 0;
 		        transform-origin: 100% 0;
-		color: #2f5572;
+		color: #559897;
 		cursor: pointer;
 	}
 
 .modal__close:hover {
-			color: #d59541;
+			color: #F67E7D;
 
 		}
 
@@ -1335,7 +1335,7 @@ Instead edit gulp/templates/sprite */
 }
 
 .social-icons__icon {
-		background-color: #d59541;
+		background-color: #F67E7D;
 		display: inline-block;
 		margin: 0 5px 5px 5px;
 		width: 33%;
