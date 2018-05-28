@@ -1,7 +1,7 @@
 ## Hello World !!! 
 That's **Landing Page**  for the portfolio. That's *not a commercial work*. 
 Only for practice in new technology and design.
-You can [check out](https://tolala9.github.io/Travel_agency_pr/) site on free Host [LUAN Blog](https://tolala9.github.io/Travel_agency_pr/)
+You can [check out](https://tolala9.github.io/Travel_agency_pr/) site on free Host [TravelAgency](https://tolala9.github.io/Travel_agency_pr/)
 
 ### Description: 
 That's LP made for a travel agency. It's pretty simple site design. But practicing on this site I wanted to consolidate the knowledge gained earlier, improve some skills and learn new techniques of web development. At the end of this work, I learned to work with Webpack, improve working with Gulp. Work with ES6, use Babel. Improved skills in fast loading pages (use lazy loading images). Learned how to automate SVG Sprite, support for SVG, flexbox, responsive images in Legacy Browsers.
